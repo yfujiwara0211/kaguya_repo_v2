@@ -1,0 +1,106 @@
+.chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;  /* ボタン間の隙間 */
+  }
+  
+  .chip-q1 {
+    width: 200px; /* チップの幅 */
+    height: 40px; /* チップの高さ */
+    background-color: #f0ecec; /* 薄いグレーのチップ */
+    border: 1px solid #ccc; /* ボーダー */
+    border-radius: 6px; /* チップの四隅の丸み */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex; /* チップ内の要素を中央に配置するための準備 */
+    justify-content: center; /* 横方向の中央配置 */
+    align-items: center; /* 縦方向の中央配置 */
+  }
+  
+  .chip-q1.selected {
+    background-color: #a0a0a0; /* 選択されたチップの色 */
+    color: white; /* 選択されたチップのテキスト色 */
+  }
+
+  .chip-q2 {
+    width: 415px; /* チップの幅 */
+    height: 40px; /* チップの高さ */
+    background-color: #f0ecec; /* 薄いグレーのチップ */
+    border: 1px solid #ccc; /* ボーダー */
+    border-radius: 6px; /* チップの四隅の丸み */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex; /* チップ内の要素を中央に配置するための準備 */
+    justify-content: center; /* 横方向の中央配置 */
+    align-items: center; /* 縦方向の中央配置 */
+  }
+  
+  .chip-q2.selected {
+    background-color: #a0a0a0; /* 選択されたチップの色 */
+    color: white; /* 選択されたチップのテキスト色 */
+  }
+
+  .chip-q8 {
+    width: 70px; /* チップの幅 */
+    height: 70px; /* チップの高さ */
+    background-color: #ffffff; /* チップの背景色 */
+    border-radius: 50%; /* チップの丸み */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex; /* チップ内の要素を中央に配置するための準備 */
+    justify-content: center; /* 横方向の中央配置 */
+    align-items: center; /* 縦方向の中央配置 */
+    border: 1px solid #ccc; /* ボーダー（デフォルトは薄いグレー） */
+  }
+  
+  .chip-q8.selected {
+    border: 3px solid #000000; /* 選択されたチップのボーダー（黒） */
+  }
+  
+  .chip-q8.white {
+    border: 1px solid #514f4f; /* 白のチップのボーダー（薄いグレー） */
+  }
+  
+  /* 各色の丸の背景色を定義 */
+  .chip-q8.red {
+    background-color: #ff0000; /* 赤 */
+  }
+  
+  .chip-q8.orange {
+    background-color: #ffa500; /* オレンジ */
+  }
+  
+  .chip-q8.yellow {
+    background-color: #ffff00; /* 黄色 */
+  }
+  
+  .chip-q8.green {
+    background-color: #008000; /* 緑 */
+  }
+  
+  .chip-q8.blue {
+    background-color: #0000ff; /* 青 */
+  }
+  
+  .chip-q8.purple {
+    background-color: #800080; /* 紫 */
+  }
+  
+  .chip-q8.pink {
+    background-color: #ff00ff; /* ピンク */
+  }
+  
+  .chip-q8.gray {
+    background-color: #808080; /* グレー */
+  }
+  
+  .chip-q8.black {
+    background-color: #000000; /* 黒 */
+  }
